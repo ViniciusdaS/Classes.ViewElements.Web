@@ -1,2 +1,3 @@
 # ClassesHTMLSenac
-Develop and organize user interface and visual elements for web applications (HTML)
+This repository show my classes: "Develop and organize user interface and visual elements for web applications". 
+Languages: HTML and CSS. 
