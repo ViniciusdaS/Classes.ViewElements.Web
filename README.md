@@ -1,5 +1,8 @@
 # ClassesHTMLSenac
-This repository show my classes: "Develop and organize user interface and visual elements for web applications".<br>
-<br>
-<br>
-<h1>Languages:</h1><b>HTML</b> and <b>CSS.</b> 
+
+<!DOCKTYPE>
+      <html>
+      <body>
+          <h1> This repository show my classes: "Develop and organize user interface and visual elements for web applications" </h1>
+      </body>
+      </html>
