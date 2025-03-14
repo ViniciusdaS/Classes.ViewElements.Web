@@ -7,6 +7,6 @@
       </head>
       <br>
       <body>
-            <p style="color:red";><b> Languages: </b> <b> HTML </b> and <b> CSS. </b> </p>
+            <p style="color:red;"><b> Languages: </b> <b> HTML </b> and <b> CSS. </b> </p>
       </body>
       </html>
