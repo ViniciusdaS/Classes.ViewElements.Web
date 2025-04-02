@@ -1,30 +1,28 @@
+.menu {
+    text-align: center;
+    padding-bottom: 50px;
+}
 
-.container {
-    width: 100%;
-    height: 100%;
+.Aula5 {
+    width: 100px;
+    float: right;
+}
+
+.blog {
+    width: 100px;
+    float: right;
 }
 
 nav {
     border-style: solid;
     background-color: black;
     width: 100%;
-    height: 20%;
-}
-
-body {
-    text-align: center;
-}
-
-body h1{
-    text-align: center;
+    height: 70%;
 }
 
 .Atalhos1 {
     text-align: center;
-    display: inline;
-    position:absolute;
-    top: 60px;
-    right: 500px;
+    padding-top: 100px;
 }
 
 .Atalhos2 {
@@ -42,6 +40,26 @@ body h1{
     top: 60px;
     right: 380px;
 }
+
+.painel img{
+    width: 200px;
+    height: 200px;
+}
+
+.painel blog {
+    text-align: center;
+}
+
+#figureAula7 {
+    padding-right: 700px;
+    
+}
+
+.painel aula5 {
+    padding-left: 600px;
+}
+
+
 
 
 

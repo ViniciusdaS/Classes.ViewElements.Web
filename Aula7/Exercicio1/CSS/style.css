@@ -1,0 +1,21 @@
+
+html.body{
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    width: 100%;
+    height: 100%;
+}
+
+.aula3.img {
+    width: 300px;
+    height: 300px;
+}
+
+.aula3.li {
+    width: 200px;
+    display: inline-block;
+    margin: 0px 20px;
+}
