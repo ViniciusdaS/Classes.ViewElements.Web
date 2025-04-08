@@ -3,12 +3,11 @@ body {
 }
 
 .person {
-    color: red;
-    align-items: center;
-    padding-top: 100px;
+    color:red;
     text-align: center;
     background-color: black;
     height: 500px;
+    width: 350px;
 }
 
 .person p {
@@ -16,5 +15,10 @@ body {
 }
 
 .person img {
-    width: 300px;
+    width: 250px;
+    padding-top: 80px;
+}
+
+.person ul {
+    display: block;
 }

@@ -1,0 +1,19 @@
+
+body {
+    background-color:black;
+}
+
+div {
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 50px;
+}
+
+h2 {
+    color:blue;
+}
+
+img {
+    width: 300px;
+    padding-top: 20px;
+}

@@ -8,6 +8,5 @@
       <br>
       <body>
             <p><b> Languages: </b> <b> HTML </b> and <b> CSS. </b> </p>
-            <p><b> IDE(S): VS_Code </b></p>
       </body>
       </html>
