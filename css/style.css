@@ -1,64 +1,54 @@
-.menu {
-    text-align: center;
-    padding-bottom: 50px;
-}
 
-.Aula5 {
-    width: 100px;
+
+.destaqueBlog {
     float: right;
 }
 
-.blog {
-    width: 100px;
-    float: right;
-}
-
-nav {
+.cabecario {
     border-style: solid;
     background-color: black;
-    width: 100%;
-    height: 70%;
-}
-
-.Atalhos1 {
-    text-align: center;
-    padding-top: 100px;
-}
-
-.Atalhos2 {
-    text-align: center;
-    display: inline;
-    position:absolute;
-    top: 60px;
-    right: 450px;
-}
-
-.Atalhos3 {
-    text-align: center;
-    display: inline;
-    position:absolute;
-    top: 60px;
-    right: 380px;
+    color: white;
+    height:80px;
 }
 
 .painel img{
-    width: 200px;
-    height: 200px;
+    width:400px;
+    height: 400px;
 }
 
-.painel blog {
+.blog {
     text-align: center;
 }
 
-#figureAula7 {
-    padding-right: 700px;
-    
-}
-
-.painel aula5 {
+.aula5 {
     padding-left: 600px;
 }
 
+footer{
+    width:100%;
+    height: 10%;
+    position: fixed;
+    bottom: 0;
+    background-color: blue;
+}
+
+footer a[href*="github"]{
+    color: white;
+    background-image: url("../img/github.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    display: block;
+    padding-top: 35px;
+}
+
+
+
+footer li {
+    width: 100px;
+    display: inline-block;
+    height: 80px;
+}
 
 
 
