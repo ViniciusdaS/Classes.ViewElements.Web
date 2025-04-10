@@ -1,24 +1,55 @@
-body {
-    background-color: red;
-}
-
-.person {
-    color:red;
-    text-align: center;
+html, body {
+    height:100%; width:100%; 
     background-color: black;
-    height: 500px;
-    width: 350px;
 }
 
-.person p {
-    padding-left: 30px;
+.character {
+    height: 87%;
+    width: 25%; 
+    background-color: black; background-size:100%; background-repeat:no-repeat; 
+    border: solid; border-color: red; 
+    display:inline-flex;
+    flex-direction:column; 
+    justify-content:center;
 }
 
-.person img {
-    width: 250px;
-    padding-top: 80px;
+.info {
+    border: solid;
+    background-color:red;
+    position:relative;
+    top: 150px; 
 }
 
-.person ul {
-    display: block;
+#hunter {
+    background-image:url(./img/hunter.webp);
+    position: relative;
+    bottom: 2.6%;
+}
+
+#beast{
+    background-image: url(./img/ClericalBeast.webp);
+    position: relative;
+}
+
+#giant {
+    background-image:url(./img/giant.webp);
+}
+
+#eminent {
+    background-image:url(./img/eminent.webp);
+    position: relative;
+    bottom: 2.6%;
+}
+
+#human {
+    background-image:url(./img/human.jpg); 
+}
+
+#pthumerian {
+    background-image:url(./img/pthumerian.webp);
+}
+
+#name_power {
+    color: white;
+    text-align:center;
 }
