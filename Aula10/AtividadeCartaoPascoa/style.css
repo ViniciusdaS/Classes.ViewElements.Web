@@ -1,0 +1,35 @@
+body{
+    background-color:whitesmoke;
+}
+
+.geral{
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+.geral img{
+    max-width: 150px;
+}
+
+.alinharTexto{
+    margin-top:5%;
+    background-color: lightblue;
+    width:445px;
+    height:500px;
+    border: solid;
+}
+
+.alinharTexto h1, h2{
+    color:tomato;
+    text-align:center;
+}
+
+.texto{
+    color: white;
+}
+
+.texto h1{
+    color: tomato;
+}
+

@@ -3,8 +3,15 @@
     width: 350px;
 }
 
-.menu-conteudo {
-    color: black;
-    font-weight: bold;
-    text-transform: uppercase;
+.menu-conteudo li ul {
+    display:none;
 }
+
+.menu-conteudo li:hover ul{
+    display:block;
+}
+
+.menu-conteudo ul ul li{
+    background-color:green;
+}
+

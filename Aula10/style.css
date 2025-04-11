@@ -1,0 +1,52 @@
+li:first-child{
+    color: red;
+}
+
+li:last-child{
+    color: purple;
+}
+
+li:nth-child(4){
+    color: yellow;
+}
+
+a:hover{
+    background-color:tomato;
+}
+
+a:link{
+    color: green;
+}
+
+a:visited {
+    color: green;
+}
+
+a:active{
+    color: black;
+}
+
+p:first-letter{
+    color: red;
+    font-size: 200%;
+}
+
+a::before{
+    content: "#";
+}
+
+a::after{
+    content:"#";
+}
+
+
+p{
+    text-shadow:8px -10px 2px red;
+}
+
+#p {
+    opacity:0.3;
+    background-color:rgba(255,100,225,1);
+}
+
+
