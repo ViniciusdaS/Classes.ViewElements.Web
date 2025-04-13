@@ -1,20 +1,61 @@
-body {
-    background-color: red;
-    display: flex;
+body, html{
+    height: 100%;
+    width: 100%;
 }
 
-.person {
-    color:red;
-    text-align: center;
-    background-color: black;
-    padding-top: 300px;
+.containerPersonagem{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20%
 }
 
-.person p {
-    padding-left: 50px;
+.cartaoPersonagem{
+    margin-top:10%;
+    border:solid;
+    border-radius:8px;
+    max-width: 300px; height: 520px;
 }
 
-.person img {
-    width: 100px;
-    border: solid; border-color: red;
+.cartaoPersonagem img{
+    width:100%;
+    height: auto;
+    display:block;
+}
+
+.resumoPersonagem{
+    text-align:center;
+    font-size:80%;
+}
+
+h1{
+    padding-top:10px;
+}
+
+#textoInferior{
+    padding-top:10px;
+}
+
+#tanjiro{
+    background-color:red;
+}
+
+#rengoku{
+    background-color:darkorange;
+}
+
+#goto{
+    background-color:gray;
+}
+
+#oniFigu{
+    background-color:blue;
+}
+
+#rui{
+    background-color:whitesmoke;
+}
+
+#kokushibou{
+    background-color:purple;
 }
