@@ -1,0 +1,11 @@
+body{
+    background-color:white;
+}
+
+.containerDestque{
+    list-style:none;
+}
+
+main{
+    display: flex;
+}

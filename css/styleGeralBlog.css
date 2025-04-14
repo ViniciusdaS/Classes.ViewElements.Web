@@ -1,0 +1,19 @@
+.tituloConteudo{
+    color: white;
+    padding-top:2%;
+    font-size:50px;
+}
+
+.quadroConteudo img{
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    border:solid;border-color:red;
+    width: 300px; height: 200px;
+    margin-top:5%; margin-left:4%;margin-right: 4%;
+}
+
+.tituloBlog{
+    color: black;
+    font-size:50px;
+}
