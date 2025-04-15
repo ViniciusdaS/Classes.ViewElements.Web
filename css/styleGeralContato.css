@@ -1,13 +1,12 @@
 .bio{
-    margin-bottom:6%; margin-top:6%;
     color: white;
     position:static;
+    padding-top:100px;
 }
 
 .bio img{
     width: 20%;
     border-radius: 50%;
-    margin-top:2%
 }
 
 .bio h1{
@@ -16,9 +15,9 @@
 }
 
 #icon img{
-    width: 100px;
+    width: 10px;
     animation-name:alien;
-    animation-duration:100s;
+    animation-duration:150s;
     position:relative;
 }
 

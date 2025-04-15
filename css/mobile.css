@@ -28,4 +28,18 @@
     .atalhos ul li{
         margin:0 7.5px;
     }
+    .menuConteudo{
+        gap:20px;
+        margin-right:0; 
+        width:100%;
+    }
+    .links{
+        width:auto;
+    }
+    .links li{
+        width:30%;
+    }
+    .links img{
+        width:100%;
+    }
 }
