@@ -1,0 +1,27 @@
+body{
+    background-image:url("/img/universess.jfif");
+    background-repeat:no-repeat;
+    background-size:cover;
+    font-family: sans-serif;
+    width: 100%;
+    height:100%;
+}
+
+main{
+    text-align: center;
+    font-size:80px;
+    color: whitesmoke;
+    padding-top:10%;
+}
+
+main h1{
+    font-size:100px;
+}
+
+main ul li{
+    padding-top:50px;
+}
+
+main ul li a{
+    color:whitesmoke;
+}

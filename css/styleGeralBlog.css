@@ -1,19 +1,40 @@
+main{
+    display:flex;
+    align-items: center;
+    padding-left:50px;
+    padding-top:150px;
+}
+
+.secoes{
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    padding-top:100px;
+    gap:30px
+}
+
+.secoes h2{
+    color:white;
+}
+
 .tituloConteudo{
     color: white;
-    padding-top:2%;
+    padding-top:10%;
     font-size:50px;
 }
 
 .quadroConteudo img{
     display: flex;
-    flex-wrap:wrap;
     flex-direction:row;
     border:solid;border-color:red;
     width: 300px; height: 200px;
-    margin-top:5%; margin-left:4%;margin-right: 4%;
 }
 
 .tituloBlog{
     color: black;
+    font-size:50px;
+}
+
+main h1, h2{
     font-size:50px;
 }
