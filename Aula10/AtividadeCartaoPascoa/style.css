@@ -38,6 +38,18 @@ body, html{
     font-family: cursive;
 }
 
+.containerCarta h1, h2, p{
+    display:none;
+}
+
+.butt{
+    padding-top:100px;
+}
+
+button{
+    background-color:pink;
+}
+
 #img1{
     position:absolute;
     max-width: 100px;
@@ -49,7 +61,14 @@ body, html{
     display:flex;
     position:absolute;
     max-width:100px;
+    animation-name:ovos;
     left:380px; bottom:-10px;
+    transform:rotate( 20deg);
+}
+
+@keyframes ovos{
+    from{rotate:0%;}
+    to{rotate:35%}
 }
 
 .texto{
@@ -68,5 +87,9 @@ footer{
     position:absolute;
     float:left;
     padding-top: 24px; padding-left:6px;
+}
+
+.textoOculto{
+    font-size:17px;
 }
 
