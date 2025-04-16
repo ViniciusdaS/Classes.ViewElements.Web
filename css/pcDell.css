@@ -1,0 +1,14 @@
+@media screen and (max-height:768) and (max-width:1366){
+    .atalhos ul li a{
+        width:200px;        
+    }
+    .bio h1{
+        width:100px;
+    }
+}
+
+@media screen and (max-height:53){
+    footer{
+        width:100px;
+    }
+}
