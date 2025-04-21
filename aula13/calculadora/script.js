@@ -1,29 +1,25 @@
-let input = document.querySelector('#inputText');
+var display = document.getElementById('display');
 
-let textValue = ''; 
-
-function addNumber(number){
-    textValue += number;
+function addNumber(input){
+    display.value += input; 
 }
 
-function addOperator(operator){
-    textValue += number; 
+function addOperator(input){
+    display.value += input;
 }
 
-function addDecimal(){
-    textValue += '.'; 
+function addDecimal(input){
+    display.value += input; 
 }
 
-function clearText(){
-    textValue = ''; 
-}
-
-function updateText(){
-    input.textContent = textValue; 
+function clearButton(){
+    display.value = ""; 
 }
 
 function calculate(){
-    textValue = eval(textValue);
-    updateText(); 
+    try {
+        display.value = eval(display.value);
+    } catch(error){
+        display.value = "Sintax error";
+    }
 }
-
