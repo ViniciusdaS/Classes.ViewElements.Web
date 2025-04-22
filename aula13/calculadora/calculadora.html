@@ -11,6 +11,7 @@
         <div id="geral">
             <input id="display" readonly>
             <div id="interface">
+            <div class="number">
             <button onclick="addNumber('1')">1</button>
             <button onclick="addNumber('2')">2</button>
             <button onclick="addNumber('3')">3</button>
@@ -22,14 +23,16 @@
             <button onclick="addNumber('9')">9</button>
             <button onclick="addNumber('0')">0</button>
             <button onclick="calculate('=')">=</button>
-            <button onclick="clearButton()">C</button>
-            <button onclick="addOperator('+')" class="operator">+</button>
-            <button onclick="addOperator('-')" class="operator">-</button>
-            <button onclick="addOperator('*')" class="operator">*</button>
-            <button onclick="addOperator('/')" class="operator">/</button>
-            <button onclick="addOperator('%')" class="operator">%</button>
+                </div>
+        <div class="operator">
+            <button onclick="addOperator('%')">%</button>
+            <button onclick="addOperator('/')">/</button>
+            <button onclick="addOperator('*')">*</button>
             <button onclick="addDecimal('.')">.</button>
-            <h1>Lite</h1>
+            <button onclick="addOperator('+')">+</button>
+            <button onclick="addOperator('-')">-</button>
+            <button onclick="clearButton()">C</button>
+        </div>
         </div>
         </div>
     </main>

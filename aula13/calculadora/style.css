@@ -1,51 +1,71 @@
 body{
+    background-image:url("./img/einstein.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
     display:flex;
     justify-content:center;
     align-items:center;
     padding:60px;
-    background-color:cornflowerblue;
 }
 
 #geral{
     background-color:black;
-    width:400px;
-    border:solid;
-    border-radius:10px;
+    width:500px; height:400px;
+    border:solid;border-width: 5px;
+    border-radius:10px;border-color:white;
 }
 
 #interface{
     display:grid;
-    grid-template-columns:repeat(4, 1fr);
+    grid-template-columns:repeat(3, 1fr);
+    margin:25px;
     gap:20px;
-    padding:25px;
+}
+
+.number{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+}
+
+.operator{
+    display:grid;
+    grid-template-columns:repeat(2, 1fr);
+}
+
+.number button{
+    background-color:gray;
+}
+
+.operator button{
+    background-color:gray;
+}
+
+#operator{
+    background-color:gray;
 }
 
 button{
-    background-color:gray;
-    width:50px;
-    height:50px;
-    border-radius:50px;
+    width:85px;
+    height:80px;
     font-size:30px;
 }
 
 button:hover{
-    background-color:aqua;
+    background-color:blue;
 }
 
 button:active{
-    background-color:aqua;
+    background-color:blue;
 }
 
 input{
-    width:98.5%;height:20px;
+    width:50%;height:25px;
+    border-radius:5px;
 }
 
 #display{
     font-size:20px;
 }
 
-h1{
-    font-family:sans-serif;
-    color:aqua;
-    font-size:30px;
-}
+
+

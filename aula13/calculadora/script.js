@@ -18,7 +18,7 @@ function clearButton(){
 
 function calculate(){
     try {
-        display.value = eval(display.value);
+        display.value = Math.trunc(eval(display.value));
     } catch(error){
         display.value = "Sintax error";
     }
