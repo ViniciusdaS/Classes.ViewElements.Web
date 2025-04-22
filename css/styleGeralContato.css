@@ -1,12 +1,11 @@
 .bio{
     color: white;
     position:static;
-    padding-top:100px;
 }
 
 .bio img{
     width: 20%;
-    border-radius: 50%;
+    border:solid;border-color:black;border-radius: 50%;
 }
 
 .bio h1{
@@ -17,14 +16,11 @@
 #icon img{
     width: 20px;
     animation-name:alien;
-    animation-duration:150s;
+    animation-duration:130s;
     position:relative;
 }
 
 @keyframes alien {
     0%   {left:0%; top:0px;}
-    25%  {left:100%; top:0px;}
-    50%  {left:100%; top:0px;}
-    75%  {left:100%; top:0px;}
-    100% {left:100%px; top:0px;}
+    25%  {left:90%; bottom:90%;}
   }
