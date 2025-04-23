@@ -1,44 +1,14 @@
-main{
-    align-items: center;
-    padding-left:50px;
+body{
+    background-color:cadetblue;
+    background-image:none;
 }
 
-.secoes{
-    display:flex;
-    padding-top:100px;
-    flex-direction: row;
-    flex-wrap:wrap;
-    gap:30px
+.quadros img{
+    width:560px;height:400px;
+    border:solid;border-color:whitesmoke;
 }
 
-.secoes h2{
-    color:white;
-}
-
-.tituloConteudo{
-    color: white;
-    font-size:50px;
-}
-
-.quadroConteudo img{
-    display: flex;
-    flex-direction:row;
-    border:solid;border-color:red;
-    width: 200px; height: 100px;
-}
-
-.tituloBlog{
-    color: black;
-    font-size:50px;
-}
-
-
-main h1, h2{
-    font-size:50px;
-}
-
-.links{
-    display:flex;
-    flex-direction:row;
-    text-decoration:none;
+.quadros{
+    padding-top:10%;
+    color:whitesmoke;
 }

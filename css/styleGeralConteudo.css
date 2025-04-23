@@ -3,7 +3,12 @@
     margin:0;
 }
 
-.container{
+body{
+    background-image:none;
+    background-color:cadetblue;
+}
+
+.containerAulas{
     display:grid;
     grid-template-columns:repeat(3, 1fr);
     justify-items:center;
