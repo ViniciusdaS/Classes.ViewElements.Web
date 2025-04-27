@@ -12,6 +12,7 @@ mostrarTexto.addEventListener('click', () => {
         if (elem.style.display === 'none') {
             elem.style.display = 'block';
             elem.textContent = 'Querida pessoa'
+            
         }
         else {
             elem.style.display = 'none';
@@ -37,12 +38,17 @@ mostrarTexto.addEventListener('click', () => {
 
         if (elem.style.display === 'none') {
             elem.style.display = 'block';
-            elem.textContent = 'Feliz pascoa !!!'
+            elem.textContent = 'Feliz pascoa !!!';
+            elem.textContent = 'Fechar texto';
         }
         else {
             elem.style.display = 'none';
             elem.textContent = 'mostrar texto';
         }
+    }
+
+    for(let butt of mostrarTexto){
+        butt.style.display = 'none';
     }
 })
 

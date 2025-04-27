@@ -1,19 +1,38 @@
-main{
-    padding-top:8%;
+body{
+    background-color:whitesmoke;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 #curiosidades h1{
     padding-left:1%;
 }
 
+#curiosidades h1{
+    padding-top:6%;
+}
+
 #curiosidades h2{
     padding-left:1%;
+    padding-top:5%;
+}
+
+#curiosidades h3{
+    font-size:10px;
+    padding-top:5%; padding-left:1%;
 }
 
 #curiosidades p{
     padding-left:1%;
+    font-size:17px;
 }
 
 #curiosidades img{
+    background-size:cover;
     width:100%;
+    border:solid;border-color:black;border-radius:5px;
 }
+
+.btn{
+    background-color:blueviolet;
+}
+
