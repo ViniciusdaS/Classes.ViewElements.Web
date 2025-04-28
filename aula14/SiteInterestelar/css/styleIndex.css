@@ -46,3 +46,12 @@ main{
 .btn{
     background-color:blueviolet;
 }
+
+main{
+    display:flex;
+    justify-content:center;
+}
+
+.carousel-caption img{
+    width:200px;
+}
