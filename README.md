@@ -7,6 +7,6 @@
       </head>
       <br>
       <body>
-            <p><b> Languages: </b> <b> HTML </b> and <b> CSS. </b> </p>
+            <p><b> Languages: </b> <b> HTML </b>,<b> CSS </b> and <b> Javascript. </b> </p>
       </body>
       </html>
