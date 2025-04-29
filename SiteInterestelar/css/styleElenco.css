@@ -27,6 +27,10 @@ header ul li{
     width:200px; height:200px;
 }
 
+.item h1{
+    display: flex;
+}
+
 #cooper{
     background-image:url(../img/elenco/cooper.webp);
     background-size:cover;
@@ -269,8 +273,8 @@ header ul li{
 }
 
 .containerFooter{
-    margin-top:5%;
-    margin-bottom:5%;
+    margin-top:10%;
+    margin-bottom:2%;
 }
 
 footer h1{

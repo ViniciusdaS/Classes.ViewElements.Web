@@ -62,8 +62,8 @@ main{
 }
 
 .containerFooter{
-    margin-top:5%;
-    margin-bottom:5%;
+    margin-top:10%;
+    margin-bottom:2%;
 }
 
 footer h1{
@@ -78,3 +78,4 @@ footer p{
 footer ul li{
     font-size:30px;
 }
+

@@ -7,6 +7,11 @@ header ul li{
     font-size:25px;
 }
 
+#resumo h1 img{
+    width:60px;
+    padding-left:1%;
+}
+
 #resumo{
     padding-top:8%;
     padding-bottom:8%;
@@ -29,8 +34,8 @@ header ul li{
 }
 
 .containerFooter{
-    margin-top:5%;
-    margin-bottom:5%;
+    margin-top:10%;
+    margin-bottom:2%;
 }
 
 footer h1{
