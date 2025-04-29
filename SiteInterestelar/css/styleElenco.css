@@ -1,0 +1,287 @@
+body{
+    background-color:whitesmoke;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header ul li{
+    font-size:25px;
+}
+
+#containerElenco{
+    display:grid;
+    grid-template-columns:repeat(4, 150px);
+    align-items:center;
+    gap:100px;
+    justify-content:center;
+    align-items: center;
+    padding-top:100px;
+    padding-bottom:100px;
+}
+
+.item{
+    background-color:black;
+    background-image:url(/aula14/SiteInterestelar/img/home/interestelarImagem2.jpg);
+    flex-wrap:wrap;
+    border:solid; border-color:black;
+    padding-top:10px;
+    width:200px; height:200px;
+}
+
+#cooper{
+    background-image:url(../img/elenco/cooper.webp);
+    background-size:cover;
+}
+
+#murphyAdulta{
+    background-image:url(../img/elenco/murphyAdulta.webp);
+    background-size:cover;
+}
+
+#amelia{
+    background-image:url(../img/elenco/amelia.webp);
+    background-size:cover;
+}
+
+#tom{
+    background-image:url(../img/elenco/tom.webp);
+    background-size:cover;
+}
+
+#murphyCrianca{
+    background-image:url(../img/elenco/murphyCrianca.webp);
+    background-size:cover;
+}
+
+#mann{
+    background-image:url(../img/elenco/mann.webp);
+    background-size:cover;
+}
+
+#brand{
+    background-image:url(../img/elenco/brand.webp);
+    background-size:cover;
+}
+
+#donald{
+    background-image:url(../img/elenco/donald.webp);
+    background-size:cover;
+}
+
+#romily{
+    background-image:url(../img/elenco/romyle.webp);
+    background-size:cover;
+}
+
+#murphyVelha{
+    background-image:url(../img/elenco/murphyVelha.webp);
+    background-size:cover;
+}
+
+#doyle{
+    background-image:url(../img/elenco/doyle.webp);
+    background-size:cover;
+}
+
+#tomAdulto{
+    background-image:url(../img/elenco/tomAdulto.webp);
+    background-size:cover;
+}
+
+#getty{
+    background-image:url(../img/elenco/getty.webp);
+    background-size:cover;
+}
+
+#TARS{
+    background-image:url(../img/elenco/Tars.webp);
+    background-size:cover;
+}
+
+#CASE{
+    background-image:url(../img/elenco/CASE.webp);
+    background-size:cover;
+}
+
+#hanley{
+    background-image:url(../img/elenco/hanley.webp);
+    background-size:cover;
+}
+
+#schoolPrincipal{
+    background-image:url(../img/elenco/schoolPrincipal.webp);
+    background-size:cover;
+}
+
+#administrador{
+    background-image:url(../img/elenco/administrador.webp);
+    background-size:cover;
+}
+
+#williams{
+    background-image:url(../img/elenco/williams.webp);
+    background-size:cover;
+}
+
+#lois{
+    background-image:url(../img/elenco/Lois.webp);
+    background-size:cover;
+}
+
+#doctor{
+    background-image:url(../img/elenco/doutor.webp);
+    background-size:cover;
+}
+
+#boots{
+    background-image:url(../img/elenco/boots.webp);
+    background-size:cover;
+}
+
+#nurse{
+    background-image:url(../img/elenco/nurse.webp);
+    background-size:cover;
+}
+
+#smith{
+    background-image:url(../img/elenco/smith.webp);
+    background-size:cover;
+}
+
+#marlon{
+    background-image:url(../img/elenco/marlon.webp);
+    background-size:cover;
+}
+
+#alexander{
+    background-image:url(../img/elenco/alexander.webp);
+    background-size:cover;
+}
+
+#inspetorNasa{
+    background-image:url(../img/elenco/inspetorNasa.webp);
+    background-size:cover;
+}
+
+#cientistaNasa{
+    background-image:url(../img/elenco/cientistaNasa.webp);
+    background-size:cover;
+
+}
+
+#coop{
+    background-image:url(../img/elenco/coop.webp);
+    background-size:cover;
+}
+
+#chief{
+    background-image:url(../img/elenco/chief.webp);
+    background-size:cover;
+}
+
+#girlOnTruck{
+    background-image:url(../img/elenco/girlOnTruck.webp);
+    background-size:cover;
+}
+
+#nurse{
+    background-image:url(../img/elenco/nurse.webp);
+    background-size:cover;
+}
+
+#laura{
+    background-image:url(../img/elenco/laura.webp);
+    background-size:cover;
+}
+
+#derek{
+    background-image:url(../img/elenco/derek.webp);
+    background-size:cover;
+}
+
+#zhonin{
+    background-image:url(../img/elenco/zhonin.webp);
+    background-size:cover;
+}
+
+#saminin{
+    background-image:url(../img/elenco/saminin.webp);
+    background-size:cover;
+}
+
+#frank{
+    background-image:url(../img/elenco/frankTorres.webp);
+    background-size:cover;
+}
+
+#georgeCottle{
+    background-image:url(../img/elenco/georgeCottle.webp);
+    background-size:cover;
+}
+
+#markFichera{
+    background-image:url(../img/elenco/markFichera.webp);
+    background-size:cover;
+}
+
+#markNorby{
+    background-image:url(../img/elenco/markNorby.webp);
+    background-size:cover;
+}
+
+#steveDeCastro{
+    background-image:url(../img/elenco/steveDeCastro.webp);
+    background-size:cover;
+}
+
+#ryanIrving{
+    background-image:url(../img/elenco/ryanIrving.webp);
+    background-size:cover;
+}
+
+#campbell{
+    background-image:url(../img/elenco/campbell.webp);
+    background-size:cover;
+}
+
+#duran{
+    background-image:url(../img/elenco/duran.webp);
+    background-size:cover;
+}
+
+#kevin{
+    background-image:url(../img/elenco/kevin.webp);
+    background-size:cover;
+}
+
+#ivan{
+    background-image:url(../img/elenco/ivanRosing.webp);
+    background-size:cover;
+}
+
+#alicia{
+    background-image:url(../img/elenco/aliciaBailey.webp);
+    background-size:cover;
+}
+
+#cientistaNPC{
+    background-image:url(../img/elenco/cientistaNasa.webp);
+    background-size:cover;
+}
+
+.containerFooter{
+    margin-top:5%;
+    margin-bottom:5%;
+}
+
+footer h1{
+    text-align:center;
+    font-size:30px;
+}
+
+footer p{
+    text-align:center;
+}
+
+footer ul li{
+    font-size:30px;
+}
