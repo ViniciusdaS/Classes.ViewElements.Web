@@ -1,0 +1,40 @@
+.item{
+    width:150px;
+    height:150px;
+    background-color:red;
+}
+
+#item1{
+    background-image:url(../img/imagem1.jpg);
+    background-size:cover;
+}
+
+#item2{
+    background-image:url(../img/item2.jpg);
+    background-size:cover;
+}
+
+#item3{
+    background-image:url(../img/item3.jpg);
+    background-size:cover;
+}
+
+#item4{
+    background-image:url(../img/item4.jpg);
+    background-size:cover;
+}
+
+#item5{
+    background-image:url(../img/item5.jpg);
+    background-size:cover;
+}
+
+#item6{
+    background-image:url(../img/item6.jpg);
+    background-size:cover;
+}
+
+#item7{
+    background-image:url(../img/item7.jpg);
+    background-size:cover;
+}
