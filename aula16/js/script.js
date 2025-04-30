@@ -14,3 +14,5 @@ $('.owl-carousel').owlCarousel({
         }
     }
 })
+
+$('.parallax-window').parallax({imageSrc: "../img/fundo.jpg"});
