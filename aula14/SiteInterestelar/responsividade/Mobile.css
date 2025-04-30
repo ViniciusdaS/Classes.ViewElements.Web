@@ -1,0 +1,14 @@
+@media screen {
+    header{
+        width:1600px;
+    }
+    footer{
+        text-align:center;
+    }
+}
+
+@media screen and (max-width:320px){
+    .textoApresentativo img{
+        width:2000px;
+    }
+}

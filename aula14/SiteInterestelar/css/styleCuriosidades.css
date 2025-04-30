@@ -1,6 +1,9 @@
 body{
-    background-color:whitesmoke;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.containerHeader ul{
+    padding-right:350px;
 }
 
 header ul li{
