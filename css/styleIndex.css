@@ -10,7 +10,6 @@ body{
 main{
     text-align: center;
     font-size:80px;
-    color: whitesmoke;
     padding-top:9%;
 }
 
@@ -18,14 +17,5 @@ main h1{
     font-size:100px;
 }
 
-main ul li{
-    padding-top:50px;
-}
-
-main ul li a{
-    color:whitesmoke;
-    padding-bottom:9%;
-    text-decoration:none;
-}
 
 
