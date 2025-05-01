@@ -1,12 +1,13 @@
+/* Style */
+
 body, html{
     background-color:whitesmoke;
 }
 
-.geral{
-    margin-top: 7%;
-    margin-bottom:5%;
+.geral{ 
     display: flex;
     justify-content:center;
+    padding-top:5%;
 }
 
 .containerCarta{
@@ -24,22 +25,16 @@ body, html{
     font-family: cursive;
     color:black;
     text-align:center;
-    padding-top:3%;
 }
 
 .containerCarta h2{
     font-family: cursive;
     color:red;
     text-align:center;
-    padding-top:10%;
 }
 
 .containerCarta p{
     font-family: cursive;
-}
-
-.containerCarta h1, h2, p{
-    display:none;
 }
 
 .butt{
@@ -47,13 +42,13 @@ body, html{
 }
 
 button{
-    background-color:pink;
+    background-color:red;
 }
 
 #img1{
-    position:absolute;
+    position:relative;
     max-width: 100px;
-    top:-60px;
+    top:-80px;
     left: 170px;
 }
 
@@ -61,35 +56,19 @@ button{
     display:flex;
     position:absolute;
     max-width:100px;
-    animation-name:ovos;
     left:380px; bottom:-10px;
     transform:rotate( 20deg);
-}
-
-@keyframes ovos{
-    from{rotate:0%;}
-    to{rotate:35%}
-}
-
-.texto{
-    color: white;
 }
 
 .texto h1{
     color: tomato;
 }
 
-span {
-    color: brown;
-}
+/* Mobile resposivity */
 
-footer{
-    position:absolute;
-    float:left;
-    padding-top: 24px; padding-left:6px;
-}
 
-.textoOculto{
-    font-size:17px;
+@media screen{
+    #img1{
+        padding-right:500px;
+    }
 }
-
