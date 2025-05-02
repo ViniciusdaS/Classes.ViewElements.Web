@@ -1,0 +1,30 @@
+.parallax-window {
+    height:3000px;
+    background: transparent;
+}
+
+#containerTexto {
+    display:inline-block;
+    justify-content: center;
+    width:50%;
+    padding-left:3%;
+}
+
+#containerTexto .title, .text{
+    background-color:black;
+    border:solid;
+    border-radius:10px;
+    padding-top:2%;
+}
+
+.title, .text{
+    font-size:50px;
+    color:blue;
+    text-align:center;
+}
+
+img{
+    border:solid;
+    border-color:blueviolet;
+    border-radius:5px;
+}
