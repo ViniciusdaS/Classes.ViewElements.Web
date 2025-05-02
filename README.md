@@ -7,7 +7,7 @@
       </head>
       <br>
       <body>
-            <p style="color:red;"><b> Languages: </b> <b> HTML </b>,<b> CSS </b> and <b> Javascript. </b> </p>
+            <p><b> Languages: </b> <b> HTML </b>,<b> CSS </b> and <b> Javascript. </b> </p><p emoji💻></p>
             <p><b>Code editor: VS_Code. </b></p>
             <p><b>Framework: Bootstrap</b></p>
             <p><b>Tools: jQuery</b></p>
