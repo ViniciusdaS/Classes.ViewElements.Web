@@ -10,7 +10,7 @@
             <p><b> Languages: </b> <b> HTML </b>,<b> CSS </b> and <b> Javascript. </b></p>
             <p><b>Code editor: VS_Code. </b></p>
             <p><b>Framework: Bootstrap</b></p>
-            <p><b>Tools: jQuery🧰</b></p> 
+            <p><b>🧰 Tools: jQuery</b></p> 
             <p><b>Teacher: Lucas Alves. </b></p>
       </body>
       </html>
