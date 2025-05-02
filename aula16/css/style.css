@@ -1,3 +1,13 @@
+.parallax-window {
+    min-height: px;
+    background: transparent;
+}
+
+.parallax-window {
+	min-height: 400px;
+	background: transparent;
+}
+
 .item{
     width:150px;
     height:150px;
