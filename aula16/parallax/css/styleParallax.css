@@ -1,20 +1,22 @@
+/* Style Parallax */
+
 .parallax-window {
-    height:3000px;
+    height:5000px;
     background: transparent;
 }
 
 #containerTexto {
     display:inline-block;
     justify-content: center;
-    width:50%;
+    width:90%;
     padding-left:3%;
 }
 
 #containerTexto .title, .text{
-    background-color:black;
+    background-color:whitesmoke;
     border:solid;
     border-radius:10px;
-    padding-top:2%;
+    padding-top:1%;
 }
 
 .title, .text{
