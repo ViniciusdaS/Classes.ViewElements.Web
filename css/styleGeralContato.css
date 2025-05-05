@@ -1,3 +1,7 @@
+body{
+    background-image:url('/img/imgsBackground/background4.webp');
+}
+
 .bio{
     color: white;
     position:static;
@@ -23,4 +27,11 @@
 @keyframes alien {
     0%   {left:0%; top:0px;}
     25%  {left:90%; bottom:90%;}
-  }
+}
+
+/* Style Parallax */
+
+.parallax-window {
+    height:1500px;
+    background: transparent;
+}
