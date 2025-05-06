@@ -1,10 +1,10 @@
 {
     "objects":[
-        "bola",
-        "pirulito",
-        "caneta",
-        "faca",
-        "espelho"
+        "cadeira",
+        "Mesa",
+        "Lâmpada",
+        "Televisão",
+        "Computador"
     ]
 }
 
