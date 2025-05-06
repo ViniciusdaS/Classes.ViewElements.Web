@@ -1,0 +1,63 @@
+{
+    "usuarios":[
+        {
+            "nome":"Guilherme",
+            "idade":16,
+            "cpf":1753648,
+            "telefone":8333,
+            "local":{
+                "cidade":"São Leopoldo",
+                "UF":"RS",
+                "país":"Brasil"
+            }
+        },
+
+        {
+            "nome":"Vithor",
+            "idade":18,
+            "cpf":97237,
+            "telefone":8612,
+            "local":{
+                "cidade":"São Leopoldo",
+                "UF":"RS",
+                "país":"Brasil"
+            }
+        },
+
+        {
+            "nome":"Eduardo",
+            "idade":16,
+            "cpf":38584,
+            "telefone":12349,
+            "local":{
+                "cidade":"Esteio",
+                "UF":"RS",
+                "país":"Brasil"
+            }
+        },
+
+        {
+            "nome":"Cleber",
+            "idade":18,
+            "cpf":1084757,
+            "telefone":24959,
+            "local":{
+                "cidade":"São Leopoldo",
+                "UF":"RS",
+                "país":"Brasil"
+            }
+        },
+
+        {
+            "nome":"Vinicius",
+            "idade":19,
+            "cpf":96402345,
+            "telefone":9273,
+            "local":{
+                "cidade":"São Leopoldo",
+                "UF":"RS",
+                "país":"Brasil"
+            }
+        }
+    ]
+}

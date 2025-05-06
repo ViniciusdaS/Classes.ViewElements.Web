@@ -1,0 +1,33 @@
+{
+    "pessoas": [
+        {
+            "nome":"Vinicius",
+            "idade": 18,
+            "local": {
+                "cidade":"São Leopoldo",
+                "UF":"Rio Grande do Sul",
+                "País":"Brasil"
+            }
+        },
+        {
+            "nome":"Ethan",
+            "idade": 20,
+            "local": {
+                "cidade":"Los Angeles",
+                "UF":"California",
+                "País":"EUA"
+            }
+        },
+        {
+            "nome":"Jessica",
+            "idade": 35,
+            "local": {
+                "cidade":"Berlim",
+                "UF":"naosei",
+                "país":"Alemanha"
+            }
+        },
+        {}
+    ]
+    
+}

@@ -1,0 +1,29 @@
+{
+    "cursos":[
+        {
+            "nome":"IA Generativa",
+            "alunos":"Vinicius, Eduardo, Vithor, guilherme" 
+        },
+
+        {
+            "nome":"Desenvolvimento de Sistemas",
+            "alunos":"Vinicius, Cleber, Eduardo, Vithor, guilherme" 
+        },
+
+        {
+            "nome":"Ciencia da Computação",
+            "alunos":"Vinicius, Eduardo, Vithor" 
+        },
+
+        {
+            "nome":"Design Gráfico",
+            "alunos":"Eduardo, Vithor, Guilherme" 
+        },
+
+        {
+            "nome":"Desenvolvimento Web",
+            "alunos":"Eduardo, Vithor, Guilherme, Cleber" 
+        }
+    ]
+}
+

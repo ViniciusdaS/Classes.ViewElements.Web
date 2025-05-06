@@ -1,0 +1,15 @@
+body{
+    font-family:sans-serif;
+    background-color:rgb(0, 0, 0);
+}
+
+main{
+    padding-top:7%;
+    text-align:center;
+    color:blueviolet;
+    font-size:20px;
+}
+
+.texto{
+    text-align:center;
+}
