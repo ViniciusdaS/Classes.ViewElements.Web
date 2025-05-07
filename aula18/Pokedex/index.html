@@ -4,13 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pokedéx</title>
-    <link rel="stylesheet" href="./css/style.pokedex.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <main>
-        <div id="imagem">
-            <img src="./img/pokedex.png">
+        <div id="containerImagem">
+            <figure id="figPokedex">
+                <img src="./img/pokedex.png" alt="imagem de uma pokedex">
+                <audio id="somPoke" src="audio"></audio>
+            </figure>
+            <figure id="imagemPoke">
+                <img id="fotoPoke" src="" alt="imagem do pokemon">
+            </figure>
+                <form action="" id="form">
+                    <input id="inputForm" type="text">
+                </form>
+                <div>
+                    <span id="idPokemon">ID</span>
+                    <span id="nomePokemon">Pokemon</span>
+                </div>
+                <div id="informacoes1">
+                    <span id="tipo1">Tipo 1</span>
+                    <span id="tipo2">Tipo 2</span>
+                </div>
+
+                    <div id="informacoes2">
+                        <div id="habilidade">Habilidade</div>
+                        <div id="peso">Peso</div>
+                        <div id="altura">Altura</div>
+                    </div>
+
+                </div>
+                <div id="botoes">
+                    <button id="btnVoltar">Voltar</button>
+                    <button id="idProx">Próximo</button>
+                </div>
         </div>
     </main>
+
+    <script src="./script.js"></script>
 </body>
 </html>

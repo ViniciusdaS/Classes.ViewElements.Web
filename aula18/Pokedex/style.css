@@ -1,0 +1,65 @@
+main{
+    display:flex;
+    justify-content:center;
+    font-family:sans-serif;
+}
+
+#figPokedex{
+    display:flex;
+    justify-content:center;
+    width:400px;
+    height:600px;
+}
+
+#containerImagem{
+    position:relative;
+}
+
+#imagemPoke{
+    position:absolute;
+    top:35%;
+    left: 20%;
+}
+
+#inputForm{
+    position:absolute;
+    top: 55%;
+    left:25%;
+}
+
+#nomePokemon{
+    position:absolute;
+    bottom:33%;
+    left:30%;
+}
+
+#idPokemon{
+    position:absolute;
+    bottom:33%;
+    left:20%;
+}
+
+
+#informacoes1{
+    position:absolute;
+    bottom:28%;
+    left:20%;
+}
+
+#informacoes2{
+    position:absolute;
+    bottom:14%;
+    left:20%;
+}
+
+#botoes{
+    position:absolute;
+    bottom:-1%;
+    left:44%;
+}
+
+#btnVoltar, #idProx{
+    background-color:rgb(255, 46, 46);
+    box-shadow:-2px 2px black; 
+    border-radius:2px;
+}
