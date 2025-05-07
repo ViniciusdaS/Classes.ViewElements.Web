@@ -19,9 +19,9 @@ fetch("./JSON/data.json")
         nome4 = listaPessoas.usuarios[3].nome;
         nome5 = listaPessoas.usuarios[4].nome; 
 
-        paragrafo1.innerHTML = "<> Primeiro registro do array contém dados de <b>\"" + nome1 +  "\"</b>"; 
-        paragrafo2.innerHTML = "<> Segundo registro do array contém dados de <b>\"" + nome2 +  "\"</b>"; 
-        paragrafo3.innerHTML = "<> Terceiro registro do array contém dados de <b>\"" + nome3 + "\"</b>"; 
-        paragrafo4.innerHTML = "<> Quarto registro do array contém dados de <b>\"" + nome4 +  "\"</b>"; 
-        paragrafo5.innerHTML = "<> Quinto registro do array contém dados de <b>\"" + nome5 +  "\"</b>"; 
+        paragrafo1.innerHTML = "Primeiro registro do array contém dados de <b>\"" + nome1 +  "\"</b>"; 
+        paragrafo2.innerHTML = "Segundo registro do array contém dados de <b>\"" + nome2 +  "\"</b>"; 
+        paragrafo3.innerHTML = "Terceiro registro do array contém dados de <b>\"" + nome3 + "\"</b>"; 
+        paragrafo4.innerHTML = "Quarto registro do array contém dados de <b>\"" + nome4 +  "\"</b>"; 
+        paragrafo5.innerHTML = "Quinto registro do array contém dados de <b>\"" + nome5 +  "\"</b>"; 
     })
