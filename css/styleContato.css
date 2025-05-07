@@ -1,0 +1,43 @@
+.bio{
+    color: white;
+    position:static;
+    padding-top:2%;
+}
+
+.perfil{
+    width: 20%;
+    border:solid;border-color:black;border-radius: 50%;
+}
+
+.bio h1{
+    font-size:20px;
+    padding-top:10px;
+}
+
+.imgContatos{
+    width:5%;
+}
+
+#icon img{
+    width: 20px;
+    animation-name:alien;
+    animation-duration:130s;
+    position:relative;
+    padding-top:2%;
+}
+
+.contatos{
+    width:1%;
+}
+
+@keyframes alien {
+    0%   {left:0%; top:0px;}
+    25%  {left:100%}
+}
+
+/* Style Parallax */
+
+.parallax-window {
+    height:600px;
+    background: transparent;
+}

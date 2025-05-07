@@ -10,21 +10,18 @@
 
     <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/pcDell.css">
-    <link rel="stylesheet" href="./css/styleGeralContato.css">
+    <link rel="stylesheet" href="./css/styleContato.css">
     <link rel="stylesheet" href="./css/styleGeral.css">
-
-    <link rel="stylesheet" href="./Poligonizr/css/style.min.css">
-    <link rel="stylesheet" href="./Poligonizr/css/style.css">
 </head>
 <body>
 
-  <div id="site-landing"></div>
+ 
 
     <header class="p-4 text-bg-dark">
         <div class="containerHeader">
           <div class="justify-content-center">
-            <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
-              <svg class="" width="60" height="9" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"/></svg>
+            <a class="d-flex align-items-center text-white text-decoration-none">
+              <svg width="60" height="9" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"/></svg>
             </a>
     
             <ul class="nav justify-content-center">
@@ -37,25 +34,26 @@
         </div>
       </header>
 
-        <br>
-        <br>
-        <br>
-        <div id="icon"><img src="./img/ufo.png"></div>
+      <div class="parallax-window" data-parallax="scroll" data-image-src="./img/imgsBackground/background4.webp">
+
+        <div id="icon"><img src="./img/imgsContato/ovni.png"></div>
     <main>
         <div class="bio">
-            <img src="./img/imgsContato/fotoPerfil.jpeg">
+            <img class="perfil" src="./img/imgsContato/fotoPerfil.jpeg">
             <h1>Vinicius</h1>
             <h1>IT student</h1>
             <h1>Focus on Frontend</h1>
+            <h1>Contato: (51) 9 9273-6508</h1>
+            <br>
+            <h1><img class="imgContatos" src="./img/imgsContato/contatos/instagram.png"></h1>
         </div>
+
+      </div>
     </main>
-        <footer  class="p-4 text-bg-dark">
-            <ul>
-                <li><a href="https://github.com/ViniciusdaS">github</li>
-            </ul>
-        </footer>
-      <script src="./Poligonizr/js/poligonizr.min.js"></script>
-      <script src="./Poligonizr/js/poligonizr.min.js"></script>
-      <script src="./Poligonizr/js/siteLanding.js"></script>
+      
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+      <script src="./Parallax/jQuery.min.js"></script>
+      <script src="./Parallax/parallax.min.js"></script>
+      <script src="./Parallax/parallax.js"></script>
 </body>
 </html>

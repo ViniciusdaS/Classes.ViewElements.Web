@@ -1,19 +1,33 @@
-.busca {
-    background-color: blue;
-    width: 350px;
+.containerAulas{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    justify-items:center;
+    gap:20px;
 }
 
-.menu-conteudo li ul {
-    display:none;
+.aulas{
+    background-color:whitesmoke;
+    width:300px;
+    border:solid;border-color:black;border-radius:10px;
 }
 
-.menu-conteudo li:hover ul{
-    display:block;
+.aulas ul{
+    padding:30px;
 }
 
-.menu-conteudo ul ul li{
-    background-color:green;
+#links{
+    list-style:none;
 }
 
+#links li{
+    padding:5px;
+}
 
+#links li a{
+    text-decoration:none;
+    color:black;
+}
 
+#links h2{
+    margin:15px;
+}
