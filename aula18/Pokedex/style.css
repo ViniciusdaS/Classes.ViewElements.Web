@@ -1,7 +1,14 @@
+body{
+    background-image:url("./img/background-pokedex2.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
 main{
     display:flex;
     justify-content:center;
-    font-family:sans-serif;
 }
 
 #figPokedex{
@@ -17,7 +24,7 @@ main{
 
 #imagemPoke{
     position:absolute;
-    top:35%;
+    top:28%;
     left: 20%;
 }
 
@@ -30,26 +37,38 @@ main{
 #nomePokemon{
     position:absolute;
     bottom:33%;
-    left:30%;
+    left:50%;
 }
 
 #idPokemon{
     position:absolute;
     bottom:33%;
-    left:20%;
+    left:25%;
 }
 
 
-#informacoes1{
+/*#informacoes1{
     position:absolute;
     bottom:28%;
-    left:20%;
-}
+    left:25%;
+}*/
 
 #informacoes2{
     position:absolute;
-    bottom:14%;
-    left:20%;
+    bottom:13%;
+    left:25%;
+}
+
+#tipo1{
+    position:absolute;
+    bottom:28%;
+    left:25%;
+}
+
+#tipo2{
+    position:absolute;
+    bottom:28%;
+    left:50%;
 }
 
 #botoes{
@@ -59,7 +78,7 @@ main{
 }
 
 #btnVoltar, #idProx{
-    background-color:rgb(255, 46, 46);
+    background-color:orange;
     box-shadow:-2px 2px black; 
     border-radius:2px;
 }
