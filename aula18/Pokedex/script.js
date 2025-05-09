@@ -35,7 +35,9 @@ const showPokemon = async(pokemon) =>{
     habilidade.innerHTML = dataPokemon.abilities[0].ability.name; 
     peso.innerHTML = dataPokemon.weight / 10 + " kg";
     altura.innerHTML = dataPokemon.height / 10 + " m";
-    audioPoke.innerHTML = dataPokemon.sprites.front_default; 
+    audioPoke.src = dataPokemon.cries.latest; 
+
+    audioPoke.play();
 };
 
 /* transfers json data from api to application */
@@ -57,7 +59,7 @@ btnBack.addEventListener("click", (event) => {
 btnProx.addEventListener("click", (event) =>{
     if(numeroPokedex > 0)
     {
-        numeroPokedex  = numeroPokedex + 1
+        numeroPokedex = numeroPokedex + 1
     }
     showPokemon(numeroPokedex); 
 });
