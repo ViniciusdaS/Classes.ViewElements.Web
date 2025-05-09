@@ -36,7 +36,6 @@ const showPokemon = async(pokemon) =>{
     peso.innerHTML = dataPokemon.weight / 10 + " kg";
     altura.innerHTML = dataPokemon.height / 10 + " m";
     audioPoke.src = dataPokemon.cries.latest; 
-
     audioPoke.play();
 };
 
