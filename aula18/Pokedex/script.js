@@ -1,3 +1,5 @@
+/* html id */
+
 let imgPokemon = document.querySelector("#fotoPoke");
 let form = document.querySelector("#form");
 let inputF = document.querySelector("#inputForm");
@@ -13,17 +15,16 @@ let btnProx = document.querySelector("#btnProx");
 let audioPoke = document.querySelector("#audioPoke");
 
 let numeroPokedex = 1; 
+/* pokedex number */
 
-/*const audio = new Audio(dados.sprites.front_default);
-audio.play();*/
-
+/* transfer json items from api */
 const fetchPokemon = async(pokemon) => {
     const APIresponse = await fetch(`https://pokeapi.co/api/v2/pokemon/${pokemon}`);
     const data = await APIresponse.json();
     return data;  
 };
 
-
+/* api connection with code */
 const showPokemon = async(pokemon) =>{
     const dataPokemon = await fetchPokemon(pokemon);
     segundaImagem(dataPokemon.sprites.other.showdown.front_default,dataPokemon.sprites.front_default);
@@ -37,12 +38,13 @@ const showPokemon = async(pokemon) =>{
     audioPoke.innerHTML = dataPokemon.sprites.front_default; 
 };
 
+/* transfers json data from api to application */
 form.addEventListener("submit", (event) =>{
     event.preventDefault();
     showPokemon(inputF.value.toLowerCase());
 });
 
-
+/* button for back pokemon */
 btnBack.addEventListener("click", (event) => {
     if(numeroPokedex > 0)
     {
@@ -51,6 +53,7 @@ btnBack.addEventListener("click", (event) => {
     showPokemon(numeroPokedex);
 });
 
+/* button for next pokemon */
 btnProx.addEventListener("click", (event) =>{
     if(numeroPokedex > 0)
     {
@@ -59,6 +62,7 @@ btnProx.addEventListener("click", (event) =>{
     showPokemon(numeroPokedex); 
 });
 
+/* returns unfilled images as null */
 function segundaImagem(gif, image){
     imgPokemon.src = gif;
     imgPokemon.onerror = function(){

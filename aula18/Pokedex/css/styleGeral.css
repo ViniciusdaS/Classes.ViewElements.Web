@@ -3,18 +3,17 @@
 
 body{
     background-image:url("../img/background-pokedex4.webp");/* Gets a background image from the vs_code repository with the url and sets it as the page's background image */
-    background-size:cover; /* determines that the image is positioned according to the body of the page */
-    font-family:Verdana; /* determines the aesthetics of the text on the page as Verdana */
-    font-weight: bold; /* determines that the text on the page should be in bold */
+    background-size:cover;
+    font-family:Verdana; 
+    font-weight: bold; 
 }
 
 /* Main Element */
 /* makes the main content of the page flexible and centralizes it. */
 
-
 main{
-    display:flex; /* makes the item flexible. */
-    justify-content:center; /* centralizes flexible content. */
+    display:flex;
+    justify-content:center; 
 }
 
 /* #figPokedex */
@@ -23,24 +22,24 @@ main{
 #figPokedex{
     display:flex; 
     justify-content:center;
-    width:400px; /* width define. */
-    height:600px; /* height define */
+    width:400px; 
+    height:600px; 
 }
 
 /* #containerImagem */
 /* sets the image container as a relative position item. */
 
 #containerImagem{
-    position:relative; /* sets the item's position to relative. */
+    position:relative; 
 }
 
 /* #imagemPoke */
 /* defines the pokémon figure as relative and positions the figure within the pokedex screen with the top and left properties. */ 
 
 #imagemPoke{
-    position:absolute; /* places the item in the absolute position. */ 
-    top:28%; /* positions the item away from the top. */
-    left: 20%; /* positions the item away from the left. */
+    position:absolute; 
+    top:28%;
+    left: 20%; 
 }
 
 /* #inputForm */
@@ -69,6 +68,8 @@ main{
     bottom:30%;
     left:33%;
 }
+
+/* The same type1 and type2 definitions as information 1 and 2 with the difference of 1% offset from the top. */ 
 
 #nomePokemon, #idPokemon{
     background-color:whitesmoke;
@@ -118,6 +119,8 @@ main{
     left:55%;
 }
 
+/* sets the background color of the types div to white, the width to 17% and the height to 3.5%, a text-align center to align the text to the center, a radial border of 5px and a box-shadow of 2px. */
+
 #tipo1, #tipo2{
     background-color:whitesmoke;
     width:17%;height:3.5%;
@@ -156,20 +159,34 @@ main{
 
 /* Responsive */
 
-/*  */
+/* changes the positions of each item if there is a break in the layout patterns */
 
-@media screen and (min-height:500px) and (max-height:600px) {
+@media screen and (min-height:500px) and (max-height:1024px) { /* min-height:500px and max-height:1000px */
     #botoes{
         bottom:-3%;
+        left:45%;
     }
 }
 
-@media screen and (min-height:400px) and(max-width:600px) {
+@media screen and (min-height:400px) and (max-height:1024px) { /* min-height:500px and max-height:1000px */
     #botoes{
-        bottom:-37%;
-        left:35%;
-    }
-    #informacoes2{
-        bottom:15%;
+        bottom:-20%;
+        left:45%;
     }
 }
+
+
+@media screen and (min-height:500px) and (max-height:1024px) { /* min-height:500px and max-height:1000px */
+    #botoes{
+        bottom:-3%;
+        left:45%;
+    }
+}
+
+@media screen and (min-height:439px) and (max-height:1024px) { /* min-height:500px and max-height:1000px */
+    #botoes{
+        bottom:-20%;
+        left:45%;
+    }
+}
+
