@@ -30,15 +30,14 @@ const showPokemon = async(pokemon) =>{
     const dataPokemon = await fetchPokemon(pokemon);
     segundaImagem(dataPokemon.sprites.other.showdown.front_default,dataPokemon.sprites.front_default);
     nomePoke.innerHTML = dataPokemon.name; 
-    idPoke.innerHTML = "ID "+ dataPokemon.id;
+    idPoke.innerHTML = "ID: "+ dataPokemon.id;
     tipo1Poke.innerHTML = dataPokemon.types[0].type.name;  
     tipo2Poke.innerHTML = dataPokemon.types[1].type.name;
-    habilidade.innerHTML = dataPokemon.abilities[0].ability.name; 
-    peso.innerHTML = "Peso " + dataPokemon.weight / 10 + " kg";
-    altura.innerHTML = "Altura " + dataPokemon.height / 10 + " m";
+    habilidade.innerHTML = "Habilidade: "+ dataPokemon.abilities[0].ability.name; 
+    peso.innerHTML = "Peso: " + dataPokemon.weight / 10 + " kg";
+    altura.innerHTML = "Altura: " + dataPokemon.height / 10 + " m";
     audioPoke.src = dataPokemon.cries.latest; 
     audioPoke.play();
-    musicaPoke.play();
 };
 
 /* transfers json data from api to application */
@@ -74,3 +73,6 @@ function segundaImagem(gif, image){
     }
     return
 }
+
+showPokemon(numeroPokedex);
+play(musicaPoke);

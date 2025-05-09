@@ -57,7 +57,7 @@ main{
 #nomePokemon{
     position:absolute;
     bottom:32%;
-    left:55%;
+    left:48%;
 }
 
 /* #idPokemon */
@@ -66,7 +66,7 @@ main{
 #idPokemon{
     position:absolute;
     bottom:32%;
-    left:33%;
+    left:28%;
 }
 
 /* The same type1 and type2 definitions as information 1 and 2 with the difference of 1% offset from the top. */ 
@@ -88,7 +88,7 @@ main{
 #tipo1{
     position:absolute;
     bottom:26%;
-    left:33%;
+    left:28%;
     padding-top:1%;
 }
 
@@ -98,7 +98,7 @@ main{
 #tipo2{
     position:absolute;
     bottom:26%;
-    left:55%;
+    left:48%;
     padding-top:1%;
 }
 
@@ -107,7 +107,7 @@ main{
     background-color:whitesmoke;
     font-size:58%;
     border-radius:5px;
-    width:20%;
+    width:39%;
     text-align: center;
     box-shadow:-2px 2px black; 
 }
@@ -117,8 +117,8 @@ main{
 
 #informacoes2{
     position:absolute;
-    bottom:15%;
-    left:43%;
+    bottom:17%;
+    left:27.2%;
 }
 
 /* sets the background color of the types div to white, the width to 17% and the height to 3.5%, a text-align center to align the text to the center, a radial border of 5px and a box-shadow of 2px. */
@@ -136,8 +136,8 @@ main{
 
 #botoes{
     position:absolute;
-    bottom:0%;
-    left:45%;
+    bottom:-1%;
+    left:42.3%;
 }
 
 /* #btnVoltar & btnProx */
