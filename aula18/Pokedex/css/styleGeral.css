@@ -19,6 +19,14 @@ main{
 /* #figPokedex */
 /* makes the pokédex image a flex item, centers the item, and sets the width and height to 400 and 600px. */
 
+p{
+    position:absolute;
+    bottom:75%;
+    left:50%;
+    color:whitesmoke;
+    font-family:cursive;
+}
+
 #figPokedex{
     display:flex; 
     justify-content:center;
