@@ -9,10 +9,10 @@ let habilidade = document.querySelector("#habilidade");
 let peso = document.querySelector("#peso");
 let altura = document.querySelector("#altura");
 let btnBack = document.querySelector("#btnVoltar");
-let btnProx = document.querySelector("#idProx");
+let btnProx = document.querySelector("#btnProx");
 let audioPoke = document.querySelector("#audioPoke");
 
-let numeroPokedex = 1000; 
+let numeroPokedex = 1; 
 
 /*const audio = new Audio(dados.sprites.front_default);
 audio.play();*/
@@ -28,7 +28,7 @@ const showPokemon = async(pokemon) =>{
     const dataPokemon = await fetchPokemon(pokemon);
     segundaImagem(dataPokemon.sprites.other.showdown.front_default,dataPokemon.sprites.front_default);
     nomePoke.innerHTML = dataPokemon.name; 
-    idPoke.innerHTML = dataPokemon.id;
+    idPoke.innerHTML = "ID "+ dataPokemon.id;
     tipo1Poke.innerHTML = dataPokemon.types[0].type.name;  
     tipo2Poke.innerHTML = dataPokemon.types[1].type.name;
     habilidade.innerHTML = dataPokemon.abilities[0].ability.name; 
@@ -54,7 +54,7 @@ btnBack.addEventListener("click", (event) => {
 btnProx.addEventListener("click", (event) =>{
     if(numeroPokedex > 0)
     {
-        numeroPokedex = numeroPokedex + 1
+        numeroPokedex  = numeroPokedex + 1
     }
     showPokemon(numeroPokedex); 
 });

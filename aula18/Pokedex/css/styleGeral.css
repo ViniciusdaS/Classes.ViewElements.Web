@@ -1,0 +1,175 @@
+    /* Body Element */
+    /* pulls the image from the vs code repository and sets it as the page's background image. */
+
+body{
+    background-image:url("../img/background-pokedex4.webp");/* Gets a background image from the vs_code repository with the url and sets it as the page's background image */
+    background-size:cover; /* determines that the image is positioned according to the body of the page */
+    font-family:Verdana; /* determines the aesthetics of the text on the page as Verdana */
+    font-weight: bold; /* determines that the text on the page should be in bold */
+}
+
+/* Main Element */
+/* makes the main content of the page flexible and centralizes it. */
+
+
+main{
+    display:flex; /* makes the item flexible. */
+    justify-content:center; /* centralizes flexible content. */
+}
+
+/* #figPokedex */
+/* makes the pokédex image a flex item, centers the item, and sets the width and height to 400 and 600px. */
+
+#figPokedex{
+    display:flex; 
+    justify-content:center;
+    width:400px; /* width define. */
+    height:600px; /* height define */
+}
+
+/* #containerImagem */
+/* sets the image container as a relative position item. */
+
+#containerImagem{
+    position:relative; /* sets the item's position to relative. */
+}
+
+/* #imagemPoke */
+/* defines the pokémon figure as relative and positions the figure within the pokedex screen with the top and left properties. */ 
+
+#imagemPoke{
+    position:absolute; /* places the item in the absolute position. */ 
+    top:28%; /* positions the item away from the top. */
+    left: 20%; /* positions the item away from the left. */
+}
+
+/* #inputForm */
+/* positions the input below the image area with the top and left properties. */
+
+#inputForm{
+    position:absolute;
+    top: 55%;
+    left:35%;
+}
+
+/* #nomePokemon */
+/* positions the nomePokemon item at the top of the information area, to the right of the idPokemon item and below the entry with the bottom and left properties. */
+
+#nomePokemon{
+    position:absolute;
+    bottom:30%;
+    left:55%;
+}
+
+/* #idPokemon */
+/* places the idPokemon item at the top of the information area to the left of the nomePokemon item below the input with the bottom and left properties. */
+
+#idPokemon{
+    position:absolute;
+    bottom:30%;
+    left:33%;
+}
+
+#nomePokemon, #idPokemon{
+    background-color:whitesmoke;
+    width:17%;height:3.5%;
+    text-align: center;
+    border-radius:5px;
+    font-size:80%;
+    color:black;
+    padding-top:1%;
+    box-shadow:-2px 2px black; 
+}
+
+#informacoes1, #informacoes2{
+    color:black;
+    background-color:whitesmoke;
+    font-size:80%;
+    border-radius:5px;
+    width:17%;
+    text-align: center;
+    box-shadow:-2px 2px black; 
+}
+
+/* #informacoes2 */
+/* sets the position of the informacoes2 item to absolute and positions it below informacoes1 and above the back and forward buttons with the bottom and left properties. */
+
+#informacoes2{
+    position:absolute;
+    bottom:13%;
+    left:43%;
+}
+
+/* #tipo1 */
+/* places the item tipo1 in the absolute position and positions it below the idPokemon with the bottom and left properties. */
+
+#tipo1{
+    position:absolute;
+    bottom:24%;
+    left:33%;
+}
+
+/* #tipo2 */
+/* places the item tipo2 in the absolute position and positions it below the nomePokemon with the bottom and left properties. */
+
+#tipo2{
+    position:absolute;
+    bottom:24%;
+    left:55%;
+}
+
+#tipo1, #tipo2{
+    background-color:whitesmoke;
+    width:17%;height:3.5%;
+    text-align: center;
+    border-radius:5px;
+    box-shadow:-2px 2px black; 
+}
+
+/* #botoes */
+/* sets the position of the buttons to absolute and positions them on the floor of the pokédex below the other items with the bottom and left properties. */
+
+#botoes{
+    position:absolute;
+    bottom:-20%;
+    left:45%;
+}
+
+/* #btnVoltar & btnProx */
+/* sets the buttons background color to yellow, adds a box shadow to give the button a shadow, and adds a radial border to the button to give it a round shape. */
+
+#btnVoltar, #btnProx{
+    background-color:whitesmoke;
+    box-shadow:-2px 2px black; 
+    border-radius:5px;
+}
+
+/* #lupa */
+/* sets the magnifying glass position to absolute and positions it to the left of the input element with a width size of 10px. */
+
+#lupa{
+    position:absolute;
+    bottom:42.5%;
+    left:31%;
+    width:10px;
+}
+
+/* Responsive */
+
+/*  */
+
+@media screen and (min-height:500px) and (max-height:600px) {
+    #botoes{
+        bottom:-3%;
+    }
+}
+
+@media screen and (min-height:400px) and(max-width:600px) {
+    #botoes{
+        bottom:-37%;
+        left:35%;
+    }
+    #informacoes2{
+        bottom:15%;
+    }
+}
