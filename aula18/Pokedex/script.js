@@ -13,6 +13,7 @@ let altura = document.querySelector("#altura");
 let btnBack = document.querySelector("#btnVoltar");
 let btnProx = document.querySelector("#btnProx");
 let audioPoke = document.querySelector("#audioPoke");
+let musicaPoke = document.getElementById("#musicaClassicaPoke");
 
 let numeroPokedex = 1; 
 /* pokedex number */
@@ -33,10 +34,11 @@ const showPokemon = async(pokemon) =>{
     tipo1Poke.innerHTML = dataPokemon.types[0].type.name;  
     tipo2Poke.innerHTML = dataPokemon.types[1].type.name;
     habilidade.innerHTML = dataPokemon.abilities[0].ability.name; 
-    peso.innerHTML = dataPokemon.weight / 10 + " kg";
-    altura.innerHTML = dataPokemon.height / 10 + " m";
+    peso.innerHTML = "Peso " + dataPokemon.weight / 10 + " kg";
+    altura.innerHTML = "Altura " + dataPokemon.height / 10 + " m";
     audioPoke.src = dataPokemon.cries.latest; 
     audioPoke.play();
+    musicaPoke.play();
 };
 
 /* transfers json data from api to application */
